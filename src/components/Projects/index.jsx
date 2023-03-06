@@ -71,7 +71,7 @@ const Projects = ({ featuredProject }) => {
               <ProductItem dataProduct={sortedDates} />
             </>
           ) : (
-            <div className="2xl:h-[640px] flex justify-center items-center">
+            <div className=" h-56 2xl:h-[640px] flex justify-center items-center">
               <p className=" text-black font-semibold 2xl:text-3xl">
                 No Have Projects
               </p>
