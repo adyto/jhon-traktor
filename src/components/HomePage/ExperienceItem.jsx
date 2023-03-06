@@ -30,7 +30,7 @@ const ExperienceItem = () => {
   ];
   return (
     <div className="bg-text-color-palette-2 text-white relative">
-      <div className="flex flex-col mx-auto container 2xl:pt-16">
+      {/* <div className="flex flex-col mx-auto container 2xl:pt-16">
         <div className="flex flex-row gap-x-4 2xl:pb-28 z-10">
           {dataAchievement.map((item) => (
             <div
@@ -81,7 +81,7 @@ const ExperienceItem = () => {
             <span className="w-full 2xl:text-xl">{item.title}</span>
           </div>
         ))}
-      </div>
+      </div> */}
     </div>
   );
 };
