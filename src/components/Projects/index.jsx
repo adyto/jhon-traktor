@@ -38,7 +38,7 @@ const Projects = ({ featuredProject }) => {
   return (
     <>
       {featuredProject ? (
-        <div className="bg-text-color-palette-1 py-20 flex flex-col">
+        <div className="bg-text-color-palette-1 pb-20 lg:py-20 flex flex-col">
           <div className="container mx-auto flex flex-col justify-between items-center gap-y-2 mb-4 lg:flex-row lg:px-4 2xl:mb-10 2xl:flex-row">
             <h1 className="text-black font-semibold text-2xl lg:text-3xl 2xl:text-6xl">
               Featured Projects

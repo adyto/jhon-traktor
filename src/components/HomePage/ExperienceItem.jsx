@@ -31,7 +31,7 @@ const ExperienceItem = () => {
   return (
     <div className="bg-text-color-palette-2 text-white relative">
       <div className="flex flex-col mx-auto container pt-12 pb-2 gap-y-2 2xl:pt-16">
-        <div className="flex flex-row justify-center gap-x-2 lg:gap-x-4 lg:justify-start 2xl:pb-28 z-10">
+        <div className="flex flex-wrap justify-center gap-x-2 lg:gap-x-4 lg:justify-start 2xl:pb-28 z-10">
           {dataAchievement.map((item) => (
             <div
               key={item.title}
