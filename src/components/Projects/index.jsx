@@ -1,7 +1,10 @@
 import React, { useEffect, useState } from 'react';
+import { Link } from 'react-router-dom';
 
 import { urlFor, client } from '../../client';
 import ProductItem from './ProductItem';
+
+import { BsFillArrowRightCircleFill } from 'react-icons/bs';
 
 const Projects = ({ featuredProject }) => {
   const [projects, setProjects] = useState([]);
@@ -77,6 +80,12 @@ const Projects = ({ featuredProject }) => {
               </p>
             </div>
           )}
+          <div className="container mx-auto items-end flex flex-col  lg:mt-4 xl:mt-6 2xl:mt-7">
+            <Link className="flex flex-row items-center font-semibold gap-x-2 xl:text-xl xl:gap-x-3">
+              <p>Explore All Projects</p>
+              <BsFillArrowRightCircleFill className="lg:w-6 lg:h-6 xl:w-7 xl:h-7" />
+            </Link>
+          </div>
         </div>
       ) : (
         <>
