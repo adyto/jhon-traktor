@@ -4,6 +4,7 @@ import HeroItem from './HeroItem';
 import Projects from '../Projects';
 import StepItem from './StepItem';
 import ClientCard from './ClientCard';
+import MessageItem from './MessageItem';
 
 const HomePage = () => {
   return (
@@ -13,6 +14,7 @@ const HomePage = () => {
       <StepItem />
       <Projects featuredProject />
       <ClientCard />
+      <MessageItem />
     </>
   );
 };
