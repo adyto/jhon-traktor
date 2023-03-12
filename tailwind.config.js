@@ -10,6 +10,7 @@ module.exports = {
       },
       fontFamily: {
         Comforter: ['Comforter Brush', 'cursive'],
+        Unlock: ['Unlock', 'cursive'],
       },
     },
   },

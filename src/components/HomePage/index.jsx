@@ -1,10 +1,14 @@
 import React from 'react';
-import ExperienceItem from './ExperienceItem';
-import HeroItem from './HeroItem';
-import Projects from '../Projects';
-import StepItem from './StepItem';
-import ClientCard from './ClientCard';
-import MessageItem from './MessageItem';
+
+import {
+  ExperienceItem,
+  HeroItem,
+  Projects,
+  StepItem,
+  ClientCard,
+  MessageItem,
+  Footer,
+} from '../index';
 
 const HomePage = () => {
   return (
@@ -15,6 +19,7 @@ const HomePage = () => {
       <Projects featuredProject />
       <ClientCard />
       <MessageItem />
+      <Footer />
     </>
   );
 };
