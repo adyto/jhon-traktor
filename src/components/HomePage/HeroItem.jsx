@@ -6,11 +6,11 @@ import { imgBgHome } from '../../assets';
 const HeroItem = () => {
   return (
     <div
-      className="w-full bg-center relative bg-cover bg-no-repeat pt-36 pb-24 md:pt-52 md:pb-36 lg:pt-80 lg:pb-52 h-140 after:absolute after:bottom-0 after:left-0 after:w-full after:h-full after:bg-gradient-to-r after:from-black after:to-transparent before:absolute before:w-full before:h-8 before:bg-text-color-palette-2 before:bottom-0 before:left-0 "
+      className="w-full bg-center relative bg-cover bg-no-repeat pt-36 pb-24 md:pt-40 md:pb-32 lg:pt-80 lg:pb-52 h-140 after:absolute after:bottom-0 after:left-0 after:w-full after:h-full after:bg-gradient-to-r after:from-black after:to-transparent before:absolute before:w-full before:h-8 before:bg-text-color-palette-2 before:bottom-0 before:left-0 "
       style={{ backgroundImage: `url(${imgBgHome})` }}
     >
       <div className="flex flex-col relative px-4 container mx-auto text-white z-10 lg:px-4">
-        <h1 className="font-semibold text-3xl md:text-4xl lg:text-5xl 2xl:text-6xl">
+        <h1 className="font-semibold text-3xl md:text-5xl lg:text-5xl 2xl:text-6xl">
           We Prepare{' '}
           <span className="block pt-1 2xl:pt-4">
             For The <span className="text-text-color-palette-1">Future</span>{' '}
