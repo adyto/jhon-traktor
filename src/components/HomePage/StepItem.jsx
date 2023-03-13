@@ -21,15 +21,15 @@ const StepItem = () => {
   ];
 
   return (
-    <div className="bg-text-color-palette-1 pt-10">
-      <div className="container mx-auto lg:px-4">
-        <div className="flex flex-col items-center lg:flex-row lg:justify-between relative">
+    <div className="bg-text-color-palette-1 py-6 lg:pt-10">
+      <div className="container mx-auto px-4">
+        <div className="flex flex-col items-center gap-y-4 lg:flex-row lg:justify-between relative">
           {dataStep.map((item) => (
             <div
               key={item.desc}
-              className="flex flex-col relative text-center text-white font-medium max-w-md h-full lg:w-60 lg:h-36 lg:text-lg xl:text-xl"
+              className="flex flex-col-reverse relative text-center text-white font-medium h-full max-w-md w-full border-none rounded-xl bg-text-color-palette-2 py-4 px-4 gap-y-2 lg:border-none lg:bg-text-color-palette-1 lg:max-w-md lg:flex-col lg:w-60 lg:h-36 lg:text-lg xl:text-xl"
             >
-              <p className=" text-xl lg:text-base mb-2 lg:mb-3">{item.title}</p>
+              <p className="text-xl lg:text-base mb-2 lg:mb-3">{item.title}</p>
               <p>{item.desc}</p>
               <div className="lg:w-8 lg:h-8 bg-white/20 rounded-full lg:left-[42%] absolute bottom-0 z-10 after:absolute after:w-4 after:h-4 after:bg-white after:rounded-full after:right-2 after:top-2 max-lg:hidden" />
             </div>
