@@ -41,7 +41,7 @@ const ClientCard = () => {
         >
           {testimony.map((item, i) => (
             <SwiperSlide key={i}>
-              <div className="max-w-5xl w-full mx-auto text-center pt-7 pb-20">
+              <div className="max-w-5xl w-full mx-auto text-center pt-7 pb-20 flex flex-col items-center">
                 <p>{item.title}</p>
                 <p className="pt-3 pb-1">{item.name}</p>
                 <p>
