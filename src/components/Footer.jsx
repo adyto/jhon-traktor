@@ -25,7 +25,7 @@ const Footer = () => {
     },
   ];
   return (
-    <div className="bg-text-color-palette-2 text-text-color-palette-3 pt-10 px-4 xl:pt-11 2xl:pt-12">
+    <div className="bg-text-color-palette-2 text-text-color-palette-3 pt-10 pb-10 px-4 xl:pt-11 2xl:pt-12">
       <div className="container mx-auto flex flex-col">
         <div className="flex justify-between mb-4 gap-y-1 lg:mb-0 items-center flex-col md:flex-row">
           <h1 className="uppercase font-Unlock text-xl md:text-lg lg:text-xl xl:text-2xl 2xl:text-3xl">
@@ -43,7 +43,7 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <div className="flex flex-col space-y-3 md:space-y-4 lg:flex-row lg:justify-between lg:py-4 xl:py-5 2xl:py-6">
+        <div className="flex flex-col space-y-3 py-4 md:space-y-4 lg:flex-row lg:justify-between lg:py-4 xl:py-5 2xl:py-6">
           {dataFooter.map((item) => (
             <div
               className={`flex flex-col text-center lg:text-start ${
@@ -86,6 +86,17 @@ const Footer = () => {
               </div>
             </div>
           ))}
+        </div>
+        <div className="text-center mt-4 text-xs">
+          <a
+            href="https://www.figma.com/community/file/1209577571885853711"
+            target={'_blank'}
+          >
+            Figma Files Documment
+          </a>
+          <span className="block mt-2">
+            Copyright © 2023 CandyAP. All Rights Reserved
+          </span>
         </div>
       </div>
     </div>
